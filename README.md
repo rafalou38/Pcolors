@@ -7,12 +7,11 @@
 
 <div align="center">
 
-[![Status](https://img.shields.io/badge/status-active-success.svg)]()
-[![GitHub Issues](https://img.shields.io/github/issues/kylelobo/The-Documentation-Compendium.svg)](https://github.com/rafalou38/Pcolors/issues)
-
-[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/kylelobo/The-Documentation-Compendium.svg)](https://github.com/rafalou38/Pcolors/pulls)
-
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/rafalou38/Pcolors/blob/master/LICENSE)
+<!-- [![Status](https://img.shields.io/badge/status-active-success.svg)]() -->
+[![GitHub issues](https://img.shields.io/github/issues/rafalou38/Pcolors)](https://github.com/rafalou38/Pcolors/issues)
+[![GitHub forks](https://img.shields.io/github/forks/rafalou38/Pcolors)](https://github.com/rafalou38/Pcolors/network)
+[![GitHub stars](https://img.shields.io/github/stars/rafalou38/Pcolors)](https://github.com/rafalou38/Pcolors/stargazers)
+[![GitHub license](https://img.shields.io/github/license/rafalou38/Pcolors)](https://github.com/rafalou38/Pcolors/blob/master/LICENSE)
 
 </div>
 
