@@ -22,27 +22,27 @@
 
 ## :pencil: Table of Contents
 - [:pencil: Table of Contents](#pencil-table-of-contents)
-- [🧐 About](#-about)
-- [🏁 Getting Started](#-getting-started)
+- [🧐 &nbsp;&nbsp;About](#-about)
+- [🏁 &nbsp;&nbsp;Getting Started](#-getting-started)
 	- [Installing](#installing)
-- [📚 Usage](#-usage)
+- [📚&nbsp;&nbsp; Usage](#-usage)
 	- [cprint](#cprint)
 - [style](#style)
-- [🖌 styling rules](#-styling-rules)
+- [🖌&nbsp;&nbsp; styling rules](#-styling-rules)
 	- [color](#color)
 	- [end](#end)
 	- [format](#format)
-- [✒ shortcuts](#-shortcuts)
-- [✍️ Authors](#️-authors)
-- [✍️ Examples](#️-examples)
+- [✒ &nbsp;&nbsp;shortcuts](#-shortcuts)
+- [✍️ &nbsp;&nbsp;Authors](#️-authors)
+- [✍️ &nbsp;&nbsp;Examples](#️-examples)
 
 
-## 🧐 About
+## 🧐 &nbsp;&nbsp;About
 
 This package is perfect if you want to display fancy text on the console
 without having to worry about ANSI escape codes ASGR sequences and all theses boring an complicated stuff Pcolors do all that for you
 
-## 🏁 Getting Started
+## 🏁 &nbsp;&nbsp;Getting Started
 
 ### Installing
 
@@ -54,7 +54,7 @@ to verify the installation you can do
 
 >__python -m Pcolors__
 
-## 📚 Usage
+## 📚&nbsp;&nbsp; Usage
 
 
 
@@ -89,7 +89,7 @@ cprint("my second header", style=header)
 
 ```
 
-## 🖌 styling rules
+## 🖌&nbsp;&nbsp; styling rules
 
 ### color
 
@@ -181,7 +181,7 @@ or you can use codes:
 - 51
 - 52
 
-## ✒ shortcuts
+## ✒ &nbsp;&nbsp;shortcuts
 
 you can also use shortcuts for styling :
 
@@ -215,9 +215,9 @@ code(light.green) #>
 
   
 
-## ✍️ Authors
+## ✍️ &nbsp;&nbsp;Authors
 
 -   [@rafalou38](https://github.com/rafalou38) - Idea & Initial work
 
-## ✍️ Examples
+## ✍️ &nbsp;&nbsp;Examples
 bla bla bla
