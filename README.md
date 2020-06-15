@@ -1,9 +1,9 @@
 <p align="center">
   <a href="" rel="noopener">
- <img width=200px height=200px src="https://i.imgur.com/6wj0hh6.jpg" alt="Project logo"></a>
+ <img width=200px height=200px src="https://res.cloudinary.com/dr844cxrp/image/upload/v1592208914/Fichier_3_omuqch.png" alt="Project logo"></a>
 </p>
 
-<h3 align="center">Project Title</h3>
+<h3 align="center">Pcolors</h3>
 
 <div align="center">
 
@@ -17,99 +17,207 @@
 
 ---
 
-<p align="center"> Few lines describing your project.
+<p align="center"> Pcolors is made to simplify printing colors in the console.
     <br> 
-</p>
 
 ## 📝 Table of Contents
 
--   [About](#about)
--   [Getting Started](#getting_started)
--   [Deployment](#deployment)
--   [Usage](#usage)
--   [Built Using](#built_using)
--   [TODO](../TODO.md)
--   [Contributing](../CONTRIBUTING.md)
--   [Authors](#authors)
--   [Acknowledgments](#acknowledgement)
+- [📝 Table of Contents](#-table-of-contents)
+- [🧐 About <a name = "about"></a>](#-about)
+- [🏁 Getting Started <a name = "getting_started"></a>](#-getting-started)
+	- [Installing<a name = "install"></a>](#installing)
+- [📚 Usage <a name="usage"></a>](#-usage)
+	- [cprint<a name = "cprint"></a>](#cprint)
+- [style<a name = "style"></a>](#style)
+- [🖌 styling rules <a name = "styling"></a>](#-styling-rules)
+	- [color<a name = "color"></a>](#color)
+	- [end<a name = "end"></a>](#end)
+	- [format<a name = "format"></a>](#format)
+- [✒ shortcuts](#-shortcuts)
+- [✍️ Authors](#️-authors)
+- [✍️ Examples](#️-examples)
+
 
 ## 🧐 About <a name = "about"></a>
 
-Write about 1-2 paragraphs describing the purpose of your project.
+This package is perfect if you want to display fancy text on the console
+without having to worry about ANSI escape codes ASGR sequences and all theses boring an complicated stuff Pcolors do all that for you
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
+### Installing<a name = "install"></a>
 
-### Prerequisites
+You can install Pcolors using pip:
 
-What things you need to install the software and how to install them.
+>__pip install Pcolors__
 
-```
-Give examples
-```
+to verify the installation you can do
 
-### Installing
+>__python -m Pcolors__
 
-A step by step series of examples that tell you how to get a development env running.
+## 📚 Usage <a name="usage"></a>
 
-Say what the step will be
 
-```
-Give the example
-```
 
-And repeat
+### cprint<a name = "cprint"></a>
 
-```
-until finished
-```
+`cprint()` is the base function of Pcolors use it to directly print colored text using the [styling rules](#styling):
 
-End with an example of getting some data out of the system or using it for a little demo.
+`cprint("text", styling rules)`
 
-## 🔧 Running the tests <a name = "tests"></a>
+```python
+from Pcolors import cprint
 
-Explain how to run the automated tests for this system.
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
+cprint("text", fg_color="red", bg_color="lblue")
 ```
 
-### And coding style tests
+## style<a name = "style"></a>
 
-Explain what these tests test and why
+`style()` is used to define styles using the [styling rules](#styling):
+
+```python
+from Pcolors import style
+
+header = style(
+	fg_color="green",
+	bg_color="lblack",
+	format=["framed", "bold", "underline_bold"],
+)
+
+cprint("my header", style=header)
+...
+cprint("my second header", style=header)
 
 ```
-Give an example
+
+## 🖌 styling rules <a name = "styling"></a>
+### color<a name = "color"></a>
+
+use fg_color and bg_color to define the forground color and the background color
+	
+
+```python
+from Pcolors import cprint, style
+
+cprint("text", fg_color="red", bg_color="lblue")
+style(fg_color="red", bg_color="lblue")
+```
+you can use color names:
+- white / lwhite
+- cyan / lcyan
+- magenta / lmagenta
+- blue / lblue
+- yellow / lyellow
+- green / lgreen
+- red / lred
+- black / lblack
+ 
+or you can use codes:
+
+- 97 / 37
+- 96 / 36
+- 95 / 35
+- 94 / 34
+- 93 / 33
+- 92 / 32
+- 91 / 31
+- 90 / 30
+
+
+  
+### end<a name = "end"></a>
+
+use end to define what should be appended to the output, default : "\n"
+
+```python
+from Pcolors import cprint, style
+
+
+cprint("text", fg_color="red", bg_color="lblue", end="")
+style(fg_color="red", bg_color="lblue", end="")
+```
+defining end to "" make the  print don't go to a new line at the end
+permitting to print multiple colors on a single line
+
+### format<a name = "format"></a>
+
+use format to define the formatting of the text
+
+```python
+from Pcolors import cprint, style
+
+
+cprint("text", format=["bold","underline"])
+style(format=["bold","underline"])
+```
+you can use format names:
+- normal
+- bold
+- faint
+- italic
+- underline
+- slow_blink
+- rapid_blink
+- reverse
+- hidden
+- crossed
+- underline_bold
+- framed
+- rounded
+ 
+or you can use codes:
+
+- 0
+- 1
+- 2
+- 3
+- 4
+- 5
+- 6
+- 7
+- 8
+- 9
+- 21
+- 51
+- 52
+
+## ✒ shortcuts
+
+you can also use shortcuts for styling :
+
+you can found them in `Pcolors.shortcuts`
+
+```python
+from Pcolors import style
+from Pcolors.shortcuts import light, dark, format
+
+
+header = style(
+	fg_color=dark.green,
+	bg_color=light.black,
+	format=[
+		format.framed,
+		format.bold,
+		format.underline_bold
+	],
+)
 ```
 
-## 🎈 Usage <a name="usage"></a>
+or for using manually with `code()` and [styling rules](#styling):
 
-Add notes about how to use the system.
+```python
+from Pcolors import code
+from Pcolors.shortcuts import light, dark, format
 
-## 🚀 Deployment <a name = "deployment"></a>
+code(light.green) #>
 
-Add additional notes about how to deploy this on a live system.
+```
 
-## ⛏️ Built Using <a name = "built_using"></a>
+  
 
--   [MongoDB](https://www.mongodb.com/) - Database
--   [Express](https://expressjs.com/) - Server Framework
--   [VueJs](https://vuejs.org/) - Web Framework
--   [NodeJs](https://nodejs.org/en/) - Server Environment
+## ✍️ Authors
 
-## ✍️ Authors <a name = "authors"></a>
+-   [@rafalou38](https://github.com/rafalou38) - Idea & Initial work
 
--   [@kylelobo](https://github.com/kylelobo) - Idea & Initial work
-
-See also the list of [contributors](https://github.com/kylelobo/The-Documentation-Compendium/contributors) who participated in this project.
-
-## 🎉 Acknowledgements <a name = "acknowledgement"></a>
-
--   Hat tip to anyone whose code was used
--   Inspiration
--   References
+## ✍️ Examples
+bla bla bla
