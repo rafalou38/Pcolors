@@ -20,32 +20,31 @@
 <p align="center"> Pcolors is made to simplify printing colors in the console.
     <br> 
 
-## 📝 Table of Contents
-
-- [📝 Table of Contents](#-table-of-contents)
-- [🧐 About <a name = "about"></a>](#-about)
-- [🏁 Getting Started <a name = "getting_started"></a>](#-getting-started)
-	- [Installing<a name = "install"></a>](#installing)
-- [📚 Usage <a name="usage"></a>](#-usage)
-	- [cprint<a name = "cprint"></a>](#cprint)
-- [style<a name = "style"></a>](#style)
-- [🖌 styling rules <a name = "styling"></a>](#-styling-rules)
-	- [color<a name = "color"></a>](#color)
-	- [end<a name = "end"></a>](#end)
-	- [format<a name = "format"></a>](#format)
+## :pencil: Table of Contents
+- [:pencil: Table of Contents](#pencil-table-of-contents)
+- [🧐 About](#-about)
+- [🏁 Getting Started](#-getting-started)
+	- [Installing](#installing)
+- [📚 Usage](#-usage)
+	- [cprint](#cprint)
+- [style](#style)
+- [🖌 styling rules](#-styling-rules)
+	- [color](#color)
+	- [end](#end)
+	- [format](#format)
 - [✒ shortcuts](#-shortcuts)
 - [✍️ Authors](#️-authors)
 - [✍️ Examples](#️-examples)
 
 
-## 🧐 About <a name = "about"></a>
+## 🧐 About
 
 This package is perfect if you want to display fancy text on the console
 without having to worry about ANSI escape codes ASGR sequences and all theses boring an complicated stuff Pcolors do all that for you
 
-## 🏁 Getting Started <a name = "getting_started"></a>
+## 🏁 Getting Started
 
-### Installing<a name = "install"></a>
+### Installing
 
 You can install Pcolors using pip:
 
@@ -55,11 +54,11 @@ to verify the installation you can do
 
 >__python -m Pcolors__
 
-## 📚 Usage <a name="usage"></a>
+## 📚 Usage
 
 
 
-### cprint<a name = "cprint"></a>
+### cprint
 
 `cprint()` is the base function of Pcolors use it to directly print colored text using the [styling rules](#styling):
 
@@ -71,7 +70,7 @@ from Pcolors import cprint
 cprint("text", fg_color="red", bg_color="lblue")
 ```
 
-## style<a name = "style"></a>
+## style
 
 `style()` is used to define styles using the [styling rules](#styling):
 
@@ -90,8 +89,9 @@ cprint("my second header", style=header)
 
 ```
 
-## 🖌 styling rules <a name = "styling"></a>
-### color<a name = "color"></a>
+## 🖌 styling rules
+
+### color
 
 use fg_color and bg_color to define the forground color and the background color
 	
@@ -125,7 +125,7 @@ or you can use codes:
 
 
   
-### end<a name = "end"></a>
+### end
 
 use end to define what should be appended to the output, default : "\n"
 
@@ -139,7 +139,7 @@ style(fg_color="red", bg_color="lblue", end="")
 defining end to "" make the  print don't go to a new line at the end
 permitting to print multiple colors on a single line
 
-### format<a name = "format"></a>
+### format
 
 use format to define the formatting of the text
 
