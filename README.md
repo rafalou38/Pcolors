@@ -231,7 +231,7 @@ code(light.green) #>
 
 ### cmd
 
-<img width=200px height=200px src="https://res.cloudinary.com/dr844cxrp/image/upload/v1592208914/Fichier_3_omuqch.png" alt="Project logo">
+<img width=200px height=200px src="https://github.com/rafalou38/Pcolors/blob/master/images/examples/cmd.jpg" alt="Project logo">
 
 ### windows terminal
 
