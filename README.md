@@ -27,14 +27,18 @@
 	- [Installing](#installing)
 - [📚&nbsp;&nbsp; Usage](#-usage)
 	- [cprint](#cprint)
-- [style](#style)
+	- [style](#style)
 - [🖌&nbsp;&nbsp; styling rules](#-styling-rules)
 	- [color](#color)
 	- [end](#end)
 	- [format](#format)
 - [✒ &nbsp;&nbsp;shortcuts](#-shortcuts)
 - [✍️ &nbsp;&nbsp;Authors](#️-authors)
-- [✍️ &nbsp;&nbsp;Examples](#️-examples)
+- [🔎 &nbsp;&nbsp;Examples](#-examples)
+	- [powershell](#powershell)
+	- [cmd](#cmd)
+	- [windows terminal](#windows-terminal)
+	- [pycharm](#pycharm)
 
 
 ## 🧐 &nbsp;&nbsp;About
@@ -70,7 +74,7 @@ from Pcolors import cprint
 cprint("text", fg_color="red", bg_color="lblue")
 ```
 
-## style
+### style
 
 `style()` is used to define styles using the [styling rules](#styling):
 
@@ -219,5 +223,20 @@ code(light.green) #>
 
 -   [@rafalou38](https://github.com/rafalou38) - Idea & Initial work
 
-## ✍️ &nbsp;&nbsp;Examples
-bla bla bla
+## 🔎 &nbsp;&nbsp;Examples
+
+### powershell
+
+<img width=200px height=200px src="https://res.cloudinary.com/dr844cxrp/image/upload/v1592208914/Fichier_3_omuqch.png" alt="Project logo">
+
+### cmd
+
+<img width=200px height=200px src="https://res.cloudinary.com/dr844cxrp/image/upload/v1592208914/Fichier_3_omuqch.png" alt="Project logo">
+
+### windows terminal
+
+<img width=200px height=200px src="https://res.cloudinary.com/dr844cxrp/image/upload/v1592208914/Fichier_3_omuqch.png" alt="Project logo">
+
+### pycharm
+
+<img width=200px height=200px src="https://res.cloudinary.com/dr844cxrp/image/upload/v1592208914/Fichier_3_omuqch.png" alt="Project logo">
