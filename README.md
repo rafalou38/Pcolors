@@ -1,4 +1,3 @@
-<meta name="google-site-verification" content="4UlEBbPbEnPlIPcH2G8onitTlqA2XmMvMbYphlYzgdw" />
 <p align="center">
   <a href="" rel="noopener">
  <img width=200px height=200px src="https://res.cloudinary.com/dr844cxrp/image/upload/v1592208914/Fichier_3_omuqch.png" alt="Project logo"></a>
@@ -21,8 +20,8 @@
 <p align="center"> Pcolors is made to simplify printing colors in the console.
     <br> 
 
-## :pencil: Table of Contents
-- [:pencil: Table of Contents](#pencil-table-of-contents)
+## 📝 Table of Contents
+- [📝 &nbsp;&nbsp;Table of Contents](#pencil-table-of-contents)
 - [🧐 &nbsp;&nbsp;About](#-about)
 - [🏁 &nbsp;&nbsp;Getting Started](#-getting-started)
 	- [Installing](#installing)
