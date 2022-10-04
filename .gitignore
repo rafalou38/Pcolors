@@ -130,3 +130,5 @@ dmypy.json
 # editor
 .idea/
 .vscode/
+
+test.py

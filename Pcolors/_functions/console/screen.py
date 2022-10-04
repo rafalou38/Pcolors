@@ -1,0 +1,6 @@
+def clear(): print(f'\x1b[2J', end="")
+def reset(): print(f'\x1b[2J\x1b[H', end="")
+def scroll_up(n) : print(f'\x1b[{n}S', end="")
+def scroll_down(n) : print(f'\x1b[{n}T', end="")
+def insert_line(): print(f'\x1b[L', end="")
+def delete_line(): print(f'\x1b[M', end="")

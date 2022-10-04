@@ -1,3 +1,6 @@
+> Notice: This project is abandoned, i just pushed the latest changes (very old, it may break).
+
+> See /tests/ and try.py for new features (build it yourself)
 <p align="center">
   <a href="" rel="noopener">
  <img width=200px height=200px src="https://res.cloudinary.com/dr844cxrp/image/upload/v1592208914/Fichier_3_omuqch.png" alt="Project logo"></a>
@@ -18,7 +21,7 @@
 ---
 
 <p align="center"> Pcolors is made to simplify printing colors in the console.
-    <br> 
+    <br>
 
 ## 📝 Table of Contents
 - [📝 &nbsp;&nbsp;Table of Contents](#pencil-table-of-contents)
@@ -98,7 +101,7 @@ cprint("my second header", style=header)
 ### color
 
 use fg_color and bg_color to define the forground color and the background color
-	
+
 
 ```python
 from Pcolors import cprint, style
@@ -115,7 +118,7 @@ you can use color names:
 - green / lgreen
 - red / lred
 - black / lblack
- 
+
 or you can use codes:
 
 - 97 / 37
@@ -128,7 +131,7 @@ or you can use codes:
 - 90 / 30
 
 
-  
+
 ### end
 
 use end to define what should be appended to the output, default : "\n"
@@ -168,7 +171,7 @@ you can use format names:
 - underline_bold
 - framed
 - rounded
- 
+
 or you can use codes:
 
 - 0
@@ -217,7 +220,7 @@ code(light.green) #>
 
 ```
 
-  
+
 
 ## ✍️ &nbsp;&nbsp;Authors
 

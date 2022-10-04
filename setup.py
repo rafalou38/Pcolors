@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
 	name="Pcolors",
-	version="0.1",
+	version="0.2",
 	author="rafalou38",
 	author_email="rafaloulou2@gmail.com",
 	description="Package to simplify printing colors in the console.",

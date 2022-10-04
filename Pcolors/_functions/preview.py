@@ -1,6 +1,6 @@
-import colorama
+# import colorama
 
-colorama.init()
+# colorama.init()
 
 def preview():
 	print("""
@@ -28,7 +28,7 @@ Test of the colors:
 			\033[41m lred   \033[0m \033[45mlmagenta \033[0m  
 			\033[42m lgreen \033[0m \033[46mlcyan    \033[0m 
 			\033[43m lyellow\033[0m \033[47mlwhite   \033[0m 
-	format:
+	fore:
 			\033[0m normal      \033[0m \033[1mbold           \033[0m
 			\033[2m faint       \033[0m \033[4munderline      \033[0m 
 			\033[5m slow_blink  \033[0m \033[9mcrossed        \033[0m  
@@ -46,7 +46,7 @@ Test of the colors:
 		\033[51;1;3;4;9m framed, bold, italic, underline, crossed \033[0m
 		
 		
-	\033[90;1;21ma\033[91mm\033[92ma\033[93mz\033[94mi\033[95mn\033[96mg \033[90m& \033[91ma \033[92mlo\033[93mt \033[94mmo\033[95mre\033[96m t\033[97mo \033[90mdi\033[91msc\033[92mov\033[93mer\033[0m
+	\033[5;90;1;21ma\033[91mm\033[92ma\033[93mz\033[94mi\033[95mn\033[96mg \033[90m& \033[91ma \033[92mlo\033[93mt \033[94mmo\033[95mre\033[96m t\033[97mo \033[90mdi\033[91msc\033[92mov\033[93mer\033[0m
 	
 	\033[31;1m!\033[0m\033[90;2;3m the result can be diferent depending on the terminal you use and the theme\033[0m \033[31;1m¡\033[0m
 
